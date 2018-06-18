@@ -30,6 +30,13 @@ h1,h2{
 
 .azul{color:blue}
 .amarillo{color:yellow;}
+.azul-hover{
+    color: chartreuse;
+}
+azu-hover:hover{
+    color:green;
+    cursor:pointer;
+}
 /*Style*/
 
 /*QUERY SELECTORS   */
