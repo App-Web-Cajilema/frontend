@@ -1,0 +1,39 @@
+
+
+    /* Comentario .css*/
+    /* buscarEtiquetas{*/
+    /* Etiqueta */
+h1,h2{
+    /* Nombre-propiedad:valor-propiedad*/
+    color: orangered;
+
+}
+/*ID*/
+#rojo{
+    color: rebeccapurple;
+}
+/*Clase*/
+.bg-green{
+    background-color: greenyellow;
+}
+.border-cafe{
+    border-style: solid;
+    border-width: 3px;
+    border-color: brown;
+}
+.verde{
+    color: green;
+}
+.rojo{
+    color: red;
+}
+
+.azul{color:blue}
+.amarillo{color:yellow;}
+/*Style*/
+
+/*QUERY SELECTORS   */
+h1.bg-green, h2.amarillo{
+    background-color: red;
+}
+

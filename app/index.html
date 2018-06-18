@@ -99,13 +99,35 @@ alt + commad +l
 
 <h2>Formularios</h2>
 <button>holaMundo</button>
-<from action="http://localhost:3000"
-method="get">
+<from action="http://localhost:3000/Auth/login"
+method="post">
     <input type="text" name="username">
     <input type="text" name="password">
     <button type="button">No hago nada</button>
-    <button type="submit">enviar</button>
+    <button type="submit">submit</button>
+    <button type="button">button</button>
+    <button type="reset">Reset</button>
 
 </from>
+<h2>Iframe</h2>
+<iframe id="saew"src="https://saew.epn.edu.ec" frameborder="0"
+width="600" height="800"></iframe>
+<br>
+<br>
+<iframe src="http://localhost:3000" frameborder="0"
+        width="600" height="800"></iframe>
+
+<br>
+<br>
+<script>
+    var etiquetaSaew = document.getElementById("saew");
+    etiquetaSaew.contentWindow.addEventListener("keypress",function (evento) {
+        console.log(evento)
+
+    });
+
+
+</script>
+
 </body>
 </html>
