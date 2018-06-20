@@ -21,22 +21,8 @@ h1,h2{
     border-width: 3px;
     border-color: brown;
 }
-.verde{
-    color: green;
-}
-.rojo{
-    color: red;
-}
 
-.azul{color:blue}
-.amarillo{color:yellow;}
-.azul-hover{
-    color: chartreuse;
-}
-azu-hover:hover{
-    color:green;
-    cursor:pointer;
-}
+
 /*Style*/
 
 /*QUERY SELECTORS   */
@@ -44,3 +30,9 @@ h1.bg-green, h2.amarillo{
     background-color: red;
 }
 
+    .transformacion-2d{
+        -ms-transform: translate(10px, 20px); /* IE 9 */
+        -webkit-transform: translate(10px, 20px); /* Safari */
+        transform: translate(10px, 30px);
+        transform: rotate(10deg);
+    }
